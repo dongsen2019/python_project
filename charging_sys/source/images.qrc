@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="charging_main">
+    <file>images/cost_merge.png</file>
+    <file>images/exit.png</file>
+    <file>images/extend1.png</file>
+    <file>images/extend2.png</file>
+    <file>images/import_excel.png</file>
+    <file>images/pmf.png</file>
+    <file>images/property_fee.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>491</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1.点击&quot;导入excel&quot;按钮，依次将项目应收清单和收费标准选用导入，
+这两个文件请从营账系统导出。
+
+2.左侧的数据列表框可供用户选中要查看的文件，右侧的文本框会显
+示选中文件的数据内容。
+
+3.下方的输出选项是选择要保存的文件的地址，选择&quot;保存在原文件夹
+内&quot;，则输出地址为项目应收清单所在的文件夹内，也可以点击浏览按
+钮自主选择保存地址，只需填入文件名称，系统会自动增加&quot;.xlsx&quot;的
+文件后缀名。
+
+4.选好保存的地址后，点击物业费统计，如果选择保存在原文件夹内，
+则会生成名为wyf的xlsx文件，点击维修基金统计，则会生成名为wxjj
+的xlsx文件。
+
+5.生成物业费和维修基金计算清单后，不要关闭系统，直接点击费用
+合并。选择默认地址生成名为fyhb的xlsx文件。
+
+6.费用合并清单，有一列异常列，判断物业费账期和日常维修账期是
+否相同。</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
